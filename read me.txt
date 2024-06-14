@@ -1,0 +1,16 @@
+
+		      INFORMATION PERSONNELLE
+==============================================================================
+			 PROJET WEB_CLIENT
+	Prenom: Dually
+	Nom: DAGOBERT
+	Email: mikeduallydagobert@gmail.com
+	Telephone: +509 47 31 3129
+	Status: Etudiant
+	Departement: Informatique
+	Niveau: CPI-3
+	Session: 1
+	Titre du Projet: Cr�ation d�un site pour une agence immobili�re de luxe
+	Nom de l�agence : Lendor 
+	Soumis au professeur: Nesly SYFRA
+==============================================================================

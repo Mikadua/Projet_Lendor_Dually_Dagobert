@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "police";
+    src: url(../font/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf);
+}
+@font-face {
+    font-family: "mike";
+    src: url(../font/Indie_Flower/IndieFlower-Regular.ttf);
+}
+body {
+    background: rgb(209, 210, 211);
+    font-family: "police";
+}
+header {
+    background: rgb(78, 76, 76);
+    overflow: auto;
+}
+.fa-solid {
+    color: rgb(255, 210, 9);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rgb(255, 210, 9);
+}
+a.active {
+    color: rgb(255, 210, 9);
+}
+a.active:hover {
+    color: white;
+}
+header nav ul {
+    float: right;
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    float: left;
+    padding: 25px;
+}
+nav h1 {
+    float: left;
+    padding: 20px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "mike";
+    font-weight: normal;
+}
+section {
+    margin: 60px;
+    margin-bottom: 10px;
+}
+section h1 {
+    font-size: 40px;
+}
+.bloc {
+    margin: 30px;
+}
+img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;  
+}
+.first, .second, .third {
+    display: flex;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+}
+footer {
+    background: rgb(78, 76, 76);
+    padding: 40px 0px 40px;
+    text-align: center;
+    color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        text-align: center;
+        float: none;
+        justify-content: center;
+    }
+    nav ul li {
+        float: none;
+        padding: 10px;
+    }
+    nav h1 {
+        float: none;
+        text-align: center;
+        padding: 10px;
+    }
+    section {
+        margin: 20px;
+    }
+    section h1 {
+        font-size: 30px;
+    }
+    .first, .second, .third {
+        flex-direction: column;
+    }
+    .bloc {
+        margin: 10px;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li {
+        padding: 5px;
+    }
+    section {
+        margin: 10px;
+    }
+    section h1 {
+        font-size: 25px;
+    }
+    .first, .second, .third {
+        flex-direction: column;
+    }
+    .bloc {
+        margin: 5px;
+    }
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
